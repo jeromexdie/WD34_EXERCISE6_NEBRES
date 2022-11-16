@@ -1,0 +1,389 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Permanent+Marker&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Carter+One&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap");
+
+h1 {
+  padding: 20px;
+  padding-bottom: 0px;
+  padding-top: 0px;
+  margin: 20px;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-size: 50px;
+  font-weight: bold;
+  background: #fffa9b;
+  border-radius: 5px 5px 5px 5px;
+  -moz-border-radius: 5px 5px 5px 5px;
+  -webkit-border-radius: 5px 5px 5px 5px;
+  border: 20px groove #a3a062;
+  border-left: 10px;
+  border-right: 10px;
+  margin-left: 300px;
+  margin-right: 300px;
+}
+
+h2 {
+  font-family: "Carter One", cursive;
+  font-size: 30px;
+  font-weight: bolder;
+  padding-left: 60px;
+}
+
+h2.title-festival {
+  margin-left: 400px;
+}
+
+.header {
+  text-align: center;
+  position: fixed;
+  top: 0;
+  z-index: 10;
+  padding-left: 30px;
+}
+
+li {
+  display: inline;
+  font-family: "Inter", sans-serif;
+  margin-right: 25px;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+
+  border: 1px solid #333333;
+  border-radius: 2% 6% 5% 4% / 1% 1% 2% 4%;
+  text-transform: uppercase;
+  letter-spacing: 0.3ch;
+  background: #ffffff;
+  position: relative;
+}
+
+li::before {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  border-radius: 1% 1% 2% 4% / 2% 6% 5% 4%;
+}
+
+li:hover {
+  background-color: rgb(70, 180, 200);
+  cursor: pointer;
+}
+
+nav {
+  float: center;
+  border-style: ridge;
+  border-radius: 10px;
+  background: #fffbed;
+  height: 50px;
+  width: 100%;
+}
+nav ul li a {
+  color: black;
+  text-decoration: none;
+  list-style: none;
+}
+
+.parallax {
+  background: url(pagudpud-main.webp);
+  min-height: 400px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 80%;
+  margin-left: 200px;
+}
+
+.city {
+  font-family: "Carter One", cursive;
+  font-size: 50px;
+  font-weight: lighter;
+  text-shadow: 2px 2px #3d75dd;
+  padding-top: 300px;
+  padding-left: 100px;
+}
+
+mark {
+  background-color: yellow;
+  color: black;
+}
+span.italic {
+  font-style: italic;
+  padding-top: 10px;
+}
+
+.description {
+  margin-top: -50px;
+  padding-left: 195px;
+}
+
+.about {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 20px;
+  font-weight: bolder;
+  text-align: justify;
+  width: 500px;
+  margin-left: 500px;
+  text-indent: 50px;
+}
+
+.loc-description {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 20px;
+  font-weight: bolder;
+  text-align: justify;
+  width: 800px;
+  padding-left: 60px;
+}
+
+.split-screen {
+  display: flex;
+}
+
+.split-screen__half {
+  flex: 1;
+}
+
+#splitRight {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 20px;
+  font-weight: bolder;
+  text-align: justify;
+  width: 500px;
+  margin-right: 200px;
+  text-indent: 50px;
+  margin-top: 250px;
+  padding-right: 200px;
+}
+
+.images {
+  float: left;
+  display: block;
+  overflow: hidden;
+  text-align: center;
+}
+
+.clearfix {
+  clear: both;
+}
+
+#pottery {
+  padding-left: 150px;
+  padding-bottom: 20px;
+  height: 50%;
+  width: 50%;
+}
+
+#dinengdeng {
+  margin-top: -300px;
+  margin-bottom: 100px;
+  padding-left: 100px;
+  height: auto;
+  max-width: 80%;
+}
+
+#money-thrifty {
+  margin-top: -100px;
+  padding-left: 100px;
+  height: auto;
+  max-width: 80%;
+}
+
+#pamamanhikan {
+  margin-top: 0px;
+  padding-left: 100px;
+  height: auto;
+  max-width: 80%;
+}
+
+#festival {
+  padding-top: 100px;
+  padding-left: 100px;
+  height: auto;
+  max-width: 80%;
+}
+
+#bats-festival {
+  margin-left: 150px;
+}
+
+.special-description {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 20px;
+  font-weight: bolder;
+  text-align: justify;
+  width: 800px;
+  padding-left: 60px;
+}
+
+.come {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 20px;
+  font-weight: bolder;
+  text-align: justify;
+  width: 800px;
+  padding-left: 60px;
+}
+
+.thrifty {
+  padding-top: 300px;
+  text-align: center;
+}
+
+.pamamanhikan {
+  padding-top: 100px;
+  padding-bottom: 0px;
+  text-align: center;
+}
+
+#nuptial-permit {
+  padding-top: 0px;
+  padding-top: 0px;
+}
+
+.title-festival {
+  font-family: "Carter One", cursive;
+  font-size: 30px;
+  font-weight: bolder;
+  margin-bottom: 0px;
+}
+
+.story-festival {
+  padding-top: 50px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+p#unique-festival {
+  margin-top: -250px;
+  margin-bottom: 0px;
+  text-align: center;
+}
+p#showcases-festival {
+  padding-top: 0;
+  margin-bottom: -50px;
+}
+p#mammals-festival {
+  margin-bottom: 0px;
+}
+
+h1#visit {
+  margin-top: 50px;
+  padding-bottom: -200px;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-size: 50px;
+  font-weight: bold;
+  background: #fffa9b;
+  border-radius: 5px 5px 5px 5px;
+  -moz-border-radius: 5px 5px 5px 5px;
+  -webkit-border-radius: 5px 5px 5px 5px;
+  border: 20px groove #a3a062;
+  border-left: 10px;
+  border-right: 10px;
+  margin-left: 300px;
+  margin-right: 300px;
+}
+
+.many2offer {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 20px;
+  font-weight: bolder;
+  text-align: justify;
+  width: 500px;
+  text-indent: 50px;
+  margin-left: 600px;
+  margin-top: 0px;
+  margin-bottom: -200px;
+}
+
+#bluelagoon {
+  margin-top: 250px;
+  padding-left: 100px;
+  height: auto;
+  max-width: 80%;
+}
+
+#twinislands {
+  margin-top: 0px;
+  padding-left: 100px;
+  height: auto;
+  max-width: 80%;
+}
+
+.mairaira {
+  margin-top: 0px;
+}
+
+#saudbeach,
+#saudbeachTwo {
+  margin-top: 0px;
+  padding-left: 100px;
+  height: auto;
+  max-width: 80%;
+}
+
+.jewel {
+  margin-top: 100px;
+  margin-bottom: 200px;
+}
+
+span#funfact {
+  color: red;
+}
+
+#kabiganfalls {
+  margin-top: 0px;
+  padding-left: 200px;
+  height: auto;
+  max-width: 80%;
+}
+
+#kabiganfallsTwo {
+  margin-top: 0px;
+  padding-left: 50px;
+  height: auto;
+  max-width: 80%;
+}
+
+.coolwaters {
+  margin-top: 200px;
+}
+
+#bantayabotcave,
+#bantayabotcaveTwo {
+  margin-top: 0px;
+  padding-left: 200px;
+  height: auto;
+  max-width: 80%;
+}
+
+.seamountain {
+  margin-top: 150px;
+}
+
+#patapatviaduct {
+  margin-top: 100px;
+  padding-left: 100px;
+  height: auto;
+  max-width: 80%;
+}
+
+#patapatviaductTwo {
+  padding-left: 200px;
+  height: auto;
+  max-width: 80%;
+}
+
+.scenic {
+  margin-top: 300px;
+}
